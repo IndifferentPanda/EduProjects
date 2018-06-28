@@ -1,0 +1,8 @@
+i = 20
+a = b = 1
+fib = []
+for e in list(range(i)):
+    fib.append(a)
+    b = a + b
+    a = b - a
+print(fib)
